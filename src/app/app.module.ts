@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { InputComponent } from './components/input/input.component';
 import { InterpolationComponent } from './components/interpolation/interpolation.component';
 import { PropertybindingComponent } from './components/propertybinding/propertybinding.component';
+import { ClassbindingComponent } from './components/classbinding/classbinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
     InterpolationComponent,
-    PropertybindingComponent
+    PropertybindingComponent,
+    ClassbindingComponent
   ],
   imports: [
     BrowserModule,
